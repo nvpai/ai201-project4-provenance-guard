@@ -1,0 +1,41 @@
+[
+  {
+    "content_id": "1e9b82f9-95fe-42e7-b4f6-9da9a868aa00",
+    "creator_id": "writer-alice",
+    "timestamp": "2026-06-27T19:04:48.620419+00:00",
+    "attribution": "likely_ai",
+    "confidence": 0.713,
+    "llm_score": 0.8,
+    "style_score": 0.582,
+    "label": "\ud83e\udd16 This content is likely AI-generated. Our analysis found strong signals of automated writing (confidence: 71%). This is an automated estimate, not a certainty \u2014 the creator can appeal.",
+    "status": "under_review",
+    "appeal": {
+      "creator_reasoning": "I wrote this myself. I am a non-native English speaker and my style is formal.",
+      "appealed_at": "2026-06-27T19:04:49.335511+00:00"
+    }
+  },
+  {
+    "content_id": "6c9be2d5-d416-4d37-bb65-1bf97eec1e39",
+    "creator_id": "writer-bob",
+    "timestamp": "2026-06-27T19:04:49.039852+00:00",
+    "attribution": "likely_human",
+    "confidence": 0.279,
+    "llm_score": 0.2,
+    "style_score": 0.398,
+    "label": "\u270d\ufe0f This content appears to be human-written. We found no strong signs of AI generation (confidence it is human: 72%). This is an automated estimate, not a guarantee.",
+    "status": "classified",
+    "appeal": null
+  },
+  {
+    "content_id": "605dcacc-73c9-4b7e-b964-73b857c3b136",
+    "creator_id": "writer-carol",
+    "timestamp": "2026-06-27T19:04:49.279091+00:00",
+    "attribution": "uncertain",
+    "confidence": 0.468,
+    "llm_score": 0.4,
+    "style_score": 0.571,
+    "label": "\u2753 We're not sure who wrote this. Our signals were mixed, so we can't confidently say whether it is AI-generated or human-written (AI-likelihood: 47%). Treat this result with caution.",
+    "status": "classified",
+    "appeal": null
+  }
+]
